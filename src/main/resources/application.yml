@@ -1,0 +1,15 @@
+
+server:
+  port: 8811
+spring:
+  #redis:
+    #host: 119.3.208.227
+    #port: 6379
+   #database: 0
+  datasource:
+    #MySQL连接信息
+    url: jdbc:mysql://119.3.208.227:3308/susu?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+    # 账号
+    username: root
+    # 密码
+    password: 123456  #password: mypassword
